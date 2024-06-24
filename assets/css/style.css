@@ -2,18 +2,30 @@
     text-align: center;
     color: white;
   }
+
   h2 {
     text-align: center;
     color: white;
   }
+
   h3  {
     background-color: #dbc2a4;
   }
+
+  .language{
+    color: white;
+  }
+
+  .interet{
+    color: white;
+  }
+
   header {
   background-color: #782221;
   width: 1160px;
   max-width: 100%;
   }
+
   .photo {
   display: block;
   margin-left: auto;
@@ -22,6 +34,7 @@
   width: 15%;
   box-shadow: 10px 10px 20px blue;
   }
+
   .address{
     background-color: #2c1d27;
     width: 1160px;
@@ -31,36 +44,62 @@
     justify-content: center;
     align-items: center;
     }
+
    p{
       color: white;
       display: block;
-      text-align: center;
-      font-style: italic;
+      text-align: left;
+      margin-left: 5px ;
     }
+
   a{
     color: white;
-    padding: 8%;
+    padding: 10px;
+    
    } 
-   #flex-grow {
-    flex-grow: 1;
-   }
+
    footer{
     background-color: #782221;
     width: 1160px;
     max-width: 100%;
    }
-   .logo_reseau {
+
+   .logo-reseau {
     width: 50px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    }
+
+   footer{
+    text-align: center;
+    height: 100px;
+    text-align: center;
    }
+
+   .maj{
+    text-align: center;
+    color: white;
+   }
+
    body{
     width: 1160px;
     max-width: 100%;
    }
-   .main_1 {
-    align-items: center;
+
+  section {
+    display: flex;
     flex-wrap: wrap;
-   }
+    flex-direction: row;
+    align-content: left ;
+ }
+
+.main_1{
+  background-color: #782221;
+  flex-basis: 25%;
+}
+
+.main_2{
+  margin-left: 5%;
+  flex-basis: 70%
+}
